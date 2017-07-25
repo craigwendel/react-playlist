@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import logo from '../itslit.png'
-import '../styles/index.css'
+import '../styles/NavBar.css'
 
 export default class NavBar extends Component {
   render () {

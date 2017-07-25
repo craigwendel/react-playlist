@@ -9,11 +9,15 @@ class App extends Component {
     return (
       <div className='App'>
         <NavBar />
-        <div className='playlist-flex'>
-          <PlayListForm />
-          <PlayList />
-        </div>
-    </div>
+          <div className="row">
+            <div className="col-6">
+            <PlayListForm />
+            </div>
+            <div className="col-6">
+            <PlayList />
+            </div>
+          </div>
+      </div>
     )
   }
 }

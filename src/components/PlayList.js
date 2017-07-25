@@ -34,14 +34,12 @@ export default class PlayList extends Component {
       <div>
         <div>
           <form onSubmit={this.fetchData}>
-          <button type="submit" className="btn btn-success">Update</button>
+          <button type="submit" className="btn btn-warning">Update</button>
           </form>
         </div>
         <div>
           <PlayListItem songs={this.state.songs} />
         </div>
-
-
       </div>
     )
   }
