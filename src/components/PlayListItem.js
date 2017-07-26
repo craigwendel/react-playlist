@@ -7,7 +7,7 @@ export default class PlayListItem extends Component {
     return (
       <div>
         <div className='playlist'>
-          {this.props.songs.map( (result) =>
+          {this.props.songs.map((result) =>
           <div className="card" key={result._id}>
             <ul className="list-group list-group-flush">
               <li className="list-group-item list-group-item-warning">Username: {result.userName}</li>

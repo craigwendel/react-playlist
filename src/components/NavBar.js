@@ -9,7 +9,7 @@ export default class NavBar extends Component {
         <nav className="navbar fixed-top navbar-light bg-faded">
           <span>
             <img src={logo} width="30" height="30" className="d-inline-block align-top" alt="Logo" />
-            <a className="navbar-brand" href="/">Fire Jams!</a>
+            <a className="navbar-brand" href="/react-playlist">Fire Jams!</a>
           </span>
         </nav>
         <header className='header'>
